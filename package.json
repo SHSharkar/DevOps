@@ -1,6 +1,11 @@
 {
-    "devDependencies": {
-        "@tailwindcss/forms": "^0.5.4",
-        "tailwindcss": "^3.3.3"
-    }
+  "name": "devops",
+  "scripts": {
+    "watch": "tailwindcss -i ./src/main.css -o ./dist/main.css --watch",
+    "build": "tailwindcss -i ./src/main.css -o ./dist/main.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.4",
+    "tailwindcss": "^3.3.3"
+  }
 }
